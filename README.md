@@ -88,6 +88,7 @@ replicate experiments reported in the paper cited above.
     * paragraph_id - pointer to the paragraph the sentence belongs to
     * position - position of the sentence within the paragraph
     * text
+    * **label** - human-created gold label of the sentence value
 
 ## Terms of Use
 For use of the data we kindly ask you to provide the two following attributions:
