@@ -47,7 +47,7 @@ meaning
 what is known from the provision the term comes from
 * **no value** - no additional information over what is known from the provision
 
-See [Annotation guidelines](https://github.com/jsavelka/statutory_interpretation/annotation_guidelines.pdf)
+See [Annotation guidelines](https://github.com/jsavelka/statutory_interpretation/blob/master/annotation_guidelines.pdf)
 for additional details.
 
 ## Data Structure
