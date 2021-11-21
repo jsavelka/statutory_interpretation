@@ -1,8 +1,10 @@
 # Statutory Interpretation Data Set
 
-This repository contains the data set created for the following research paper
-presented at the International conference on Artificial Intelligence and Law
-(ICAIL) 2019 in Montreal:
+This repository contains the data set created for the following research papers:
+
+Savelka, Jaromir, and Kevin D. Ashley. "Discovering Explanatory Sentences in Legal
+Case Decisions Using Pre-trained Language Models." Findings of the Association for
+Computational Linguistics: EMNLP 2021. 2021.
 
 Jaromir Savelka, Huihui Xu, and Kevin D. Ashley. 2019. Improving Sentence
 Retrieval from Case Law for Statutory Interpretation. In *Seventeenth
@@ -23,18 +25,14 @@ such as:
 example, instance, or counterexample.
 
 ## Corpus Overview
-For this corpus we selected three terms from different provisions of the United
-States Code:
-
-* "independent economic value" (18 U.S. Code § 1839(3)(B))
-* "identifying particular" (5 U.S. Code § 552a(a)(4))
-* "common business purpose" (29 U.S. Code § 203(r)(1))
+For this corpus we selected fourty two terms from different provisions of the United
+States Code.
 
 For each term we have collected a set of sentences by extracting all the
 sentences mentioning the term from the court decisions retrieved from the
 [Caselaw access project](https://case.law) data.
 
-In total the corpus consists of 4,635 sentences.
+In total the corpus consists of 26,959 sentences.
 
 The sentences are classified into four categories according to their usefulness
 for the interpretation:
@@ -47,11 +45,11 @@ meaning
 what is known from the provision the term comes from
 * **no value** - no additional information over what is known from the provision
 
-See [Annotation guidelines](https://github.com/jsavelka/statutory_interpretation/blob/master/annotation_guidelines.pdf)
+See [Annotation guidelines](https://github.com/jsavelka/statutory_interpretation/blob/master/annotation_guidelines_v2.pdf)
 for additional details.
 
 ## Data Structure
-Each zip file contains data related to one of the three queries. There are four
+Each zip file contains data related to one of the fourty two queries. There are four
 files in total containing the texts of different granularity. These allow to
 replicate experiments reported in the paper cited above.
 
@@ -93,11 +91,9 @@ replicate experiments reported in the paper cited above.
 ## Terms of Use
 For use of the data we kindly ask you to provide the two following attributions:
 
-Jaromir Savelka, Huihui Xu, and Kevin D. Ashley. 2019. Improving Sentence
-Retrieval from Case Law for Statutory Interpretation. In *Seventeenth
-International Conference on Artificial Intelligence and Law (ICAIL ’19), June
-17–21, 2019, Montreal, QC, Canada*, Floris Bex (Ed.). ACM, New York, NY, USA, 10
-pages. https://doi.org/10.1145/3322640.3326736
+Savelka, Jaromir, and Kevin D. Ashley. "Discovering Explanatory Sentences in Legal
+Case Decisions Using Pre-trained Language Models." Findings of the Association for
+Computational Linguistics: EMNLP 2021. 2021.
 
 The President and Fellows of Harvard University, Caselaw access project,
 [Caselaw access project](https://case.law), 2018.
